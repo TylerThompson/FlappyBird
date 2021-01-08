@@ -1,0 +1,33 @@
+html, body {
+    height: 100vh;
+    background: #111;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+canvas {
+    width: 400px;
+    height: 400px;
+}
+h3 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+.description {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    color: white;
+}
+.description > ul::before {
+    content: 'Directions';
+    text-align: left;
+    padding: 20px;
+}
+.description > ul > li {
+    padding-top: 10px;
+}
